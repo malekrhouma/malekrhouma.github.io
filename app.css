@@ -1,3 +1,68 @@
+
+
 h1 {
-    color: red;
+    background-color: palevioletred;
+    color: white;
+    width: auto;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: cursive;
+    font-size: 100px;
 }
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h4 {
+    text-transform: uppercase;
+    font-family: monospace;
+}
+
+#gato {
+    background-color: rgb(236, 193, 207);
+}
+
+.center {
+    display: block;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#poem {
+    display: inline-block;
+    margin-left: 20px; 
+}
+
+button {
+    display: inline-block;
+    margin-left: 20px; 
+    background-color: #000;
+    border: .5px solid palevioletred;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 0 0 30px 0 palevioletred,
+    0 0 30px 0 palevioletred,
+    0 0 10px 0 palevioletred inset;
+}
+
+button:active{
+    color: #000;
+    background:#fff;
+}
+
+#poem-container {
+    white-space: nowrap;
+    overflow-x: auto;
+    border: 2px solid black;
+    outline: black solid 1px;
+    width: 50%;
+    margin: 20px auto 20px auto;  
+    padding: 20px;
+    text-align: left;
+    font-family: monospace;
+  }
